@@ -31,11 +31,11 @@
 
 
         calcularbtn.addEventListener('click', (e)=> {
-            const num1 = document.querySelector('#num1').value; //5
-            const num2 = document.querySelector('#num2').value; //2
-            const num3 = document.querySelector('#num3').value; //1
+            const num1 = Number(document.querySelector('#num1').value); //5
+            const num2 = Number(document.querySelector('#num2').value); //2
+            const num3 = Number(document.querySelector('#num3').value); //1
             e.preventDefault();
-            var mayor = num1
+            var mayor;
             console.log(num1)
 
             if(num1>num2){
